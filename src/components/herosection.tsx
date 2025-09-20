@@ -15,11 +15,11 @@ const HeroSection = () => {
 
         {/* Foreground content */}
         <div className="relative z-10 flex flex-col justify-center items-center md:items-start text-center md:text-left mt-0">
-          <div className="flex justify-center md:justify-start items-center mb-4">
+          <div className="flex justify-center md:justify-start items-center  mb-4">
             <Tag />
           </div>
-          <p className=" text-8xl text-black"><span className='font-bold'>Med</span>Track</p>
-          <p className="mt-4 text-lg text-gray-700 w-full md:w-[300px] max-w-md">
+          <p className="text-5xl mg:text-8xl text-black"><span className='font-bold'>Med</span>Track</p>
+          <p className="mt-4 text-md md:text-lg text-gray-700 w-full md:w-[300px] max-w-md">
             Revolutionize chronic disease management with AI-powered health
             tracking.
           </p>
