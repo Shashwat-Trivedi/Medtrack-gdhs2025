@@ -3,6 +3,7 @@ import FinalCta from '@/components/finalcta'
 import HeroSection from '@/components/herosection'
 import Navbar from '@/components/navbar'
 import Solution from '@/components/solution'
+import Footer from '@/components/Footer'
 import Tag from '@/components/ui/tag'
 import React from 'react'
 
@@ -14,6 +15,7 @@ const page = () => {
       <Challanges />
       <Solution />
       <FinalCta />
+      <Footer />
     </div>
   )
 }

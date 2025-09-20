@@ -1,5 +1,6 @@
 import React from "react";
 import Tag from "./ui/tag";
+import Link from "next/link";
 
 const HeroSection = () => {
   return (
@@ -25,12 +26,12 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-6 flex gap-4 justify-center md:justify-start">
-            <button className="px-6 py-2 rounded-full bg-teal-200 text-black font-medium hover:bg-teal-300">
+            <Link  href="/login" className="px-6 py-2 rounded-full bg-teal-200 text-black font-medium hover:bg-teal-300">
               Login
-            </button>
-            <button className="px-6 py-2 rounded-full border border-gray-400 text-black font-medium hover:bg-gray-100">
+            </Link>
+            <Link href="/register" className="px-6 py-2 rounded-full border border-gray-400 text-black font-medium hover:bg-gray-100">
               Explore
-            </button>
+            </Link>
           </div>
         </div>
       </div>
